@@ -51,7 +51,7 @@ class _UsersScreenState extends State<UsersScreen> {
         controller: _refreshController,
         child: _usersListView(),
         enablePullDown: true,
-        onRefresh: _loadUsers(),
+        onRefresh: _loadUsers(), // todo: check this method
         header: WaterDropHeader(
           complete: Icon(
             Icons.check,
